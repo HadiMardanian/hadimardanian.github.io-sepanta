@@ -1,16 +1,16 @@
 @font-face {
     font-family: BrandName;
-    src: url("/public/fonts/Vazirmatn-ExtraBold.ttf")
+    src: url("https://hadimardanian.github.io/sepanta/public/fonts/Vazirmatn-ExtraBold.ttf")
 }
 
 @font-face {
     font-family: Vazir;
-    src: url("/public/fonts/Vazirmatn-Medium.ttf")
+    src: url("https://hadimardanian.github.io/sepanta/public/fonts/Vazirmatn-Medium.ttf")
 }
 
 @font-face {
     font-family: MainCaption;
-    src: url("/public/fonts/Vazirmatn-Bold.ttf")
+    src: url("https://hadimardanian.github.io/sepanta/public/fonts/Vazirmatn-Bold.ttf")
 }
 
 * {

@@ -1,0 +1,114 @@
+@font-face {
+    font-family: BrandName;
+    src: url("https://hadimardanian.github.io/sepanta/public/fonts/Vazirmatn-ExtraBold.ttf")
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url("https://hadimardanian.github.io/sepanta/public/fonts/Vazirmatn-Medium.ttf")
+}
+
+@font-face {
+    font-family: MainCaption;
+    src: url("https://hadimardanian.github.io/sepanta/public/fonts/Vazirmatn-Bold.ttf")
+}
+
+* {
+    font-family: Vazir;
+}
+
+.color-orange {
+    color: #FD8D2B;
+}
+
+#brand-name {
+    font-family: BrandName;
+    font-size: 30pt;
+    color: #2E3A45;
+}
+
+#topbar {
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.container-caption {
+    direction: rtl;
+
+}
+
+.main-caption {
+    font-family: MainCaption;
+    font-size: 20pt;
+    color: #eda238;
+}
+
+.title-caption {
+    font-family: MainCaption;
+    color: #161a1e;
+}
+
+.end-caption {
+    font-family: MainCaption !important;
+    color: white !important;
+    font-size: 20pt !important;
+}
+
+.buy-now,
+.more-about {
+    font-family: MainCaption !important;
+    font-size: 10pt !important;
+}
+
+.buy-now {
+    color: white !important;
+    background: rgba(239, 148, 20, 0.864) !important;
+    border-radius: 25px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(12.8px) !important;
+    -webkit-backdrop-filter: blur(12.8px) !important;
+    border: 2px solid rgba(254, 233, 203, 1) !important;
+}
+
+.buy-now:hover,
+.need-support:hover {
+    background: rgb(255, 149, 1) !important;
+}
+
+.sub-menu {
+    direction: rtl !important;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(13px) !important;
+    -webkit-backdrop-filter: blur(13px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28) !important;
+}
+
+.need-support {
+    color: white !important;
+    background: rgba(239, 148, 20, 0.864) !important;
+    border-radius: 25px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(12.8px) !important;
+    -webkit-backdrop-filter: blur(12.8px) !important;
+    border: 2px solid rgba(254, 233, 203, 1) !important;
+
+    font-size: 17pt !important;
+}
+
+.center-title {
+    font-family: MainCaption;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-image, .work-item {
+    width: 380px  !important;
+    height: 390px !important;
+}
